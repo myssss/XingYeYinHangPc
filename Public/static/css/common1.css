@@ -1,0 +1,116 @@
+.container {
+    width: 960px;
+    /*width: 1200px;*/
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+}
+.container-full{
+    width: 100%;
+}
+.container-chapter {
+    width: 1180px;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+}
+.menu-header {
+    height: 119px;
+    position: relative;
+    padding: 30px 130px;
+    background: url("../images/header-bar.jpg") center top no-repeat;
+}
+.menu-header .header {
+    position: relative;
+    height: 50px;
+    padding-left: 100px;
+    background-color: rgba(125,0,49,0.6);
+    border-radius: 50px;
+}
+.menu-header .logo {
+    position: absolute;
+    top: 5px;
+    left: 57px;
+}
+.menu-header .nav {
+    height: 25px;
+    position: relative;
+    text-align: right;
+    margin-right: 20px;
+    padding-top: 10px;
+
+}
+.menu-header .nav .item {
+    list-style:none;
+    display: inline-block;
+    width: 130px;
+    height: 25px;
+    text-align: center;
+    font-size: 20px;
+    color: #cfa972;
+    font-weight: 400;
+    border-right: 1px solid #bc0000;
+    cursor:pointer;
+}
+.menu-header .nav .item:nth-child(5) {
+    border:none;
+}
+
+.menu-header .nav .item:hover, .menu-header .nav .item.select {
+    color: white;
+}
+
+
+.bottom-bar {
+    margin-top: 30px;
+    height: 80px;
+    background-color: #a40000;
+}
+
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfloat{zoom:1}
+
+.mt5{margin-top:5px}
+.mt10{margin-top:10px}
+.mt13{margin-top:13px}
+.mt15{margin-top:15px}
+.mt20{margin-top:20px}
+.mt25{margin-top:25px}
+.mt30{margin-top:30px}
+.mt40{margin-top:40px}
+.mb10{margin-bottom:10px}
+.mb20{margin-bottom:20px}
+.ml30{margin-left:30px}
+.mr5{margin-right:5px}
+.mr10{margin-right:10px}
+.pt5{padding-top:5px}
+.pt10{padding-top:10px}
+.pt15{padding-top:15px}
+.pt20{padding-top:20px}
+.pt30{padding-top:30px}
+.pb10{padding-bottom:10px}
+.pb20{padding-bottom:20px}
+.pr20{padding-right:20px}
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.red_color {
+    color: #b40000;
+}
+a:link{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:active{text-decoration:none;}
+.bold_font {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.bolder {
+    font-weight: bolder;
+}

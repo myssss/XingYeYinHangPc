@@ -1,0 +1,102 @@
+.position {
+  height: 66px;
+  line-height: 66px;
+  font-size: 16px;
+  text-align: left;
+  color: #323232;
+  margin: 0;
+  padding: 0;
+}
+
+.article {
+  background-color: white;
+}
+.article .a-left {
+  width: 580px;
+}
+.article .a-right {
+  width: 323px;
+}
+
+.a-header {
+  border-bottom: 1px solid #d0d0d0;
+}
+.a-header h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.a-content {
+  font-size: 16px;
+  line-height: 2.239;
+  color: #323232;
+  padding-top: 18px;
+}
+.a-content p {
+  margin-bottom: 54px;
+}
+.a-content img {
+  margin-bottom: 20px;
+}
+.a-content div, .a-content p {
+  text-indent: 2em;
+}
+
+.right-bar {
+  padding-top: 30px;
+}
+.right-bar .item {
+  margin-top: 30px;
+}
+
+.i-header {
+  width: 366px;
+  border-bottom: 1px solid #d0d0d0;
+  position: relative;
+}
+.i-header h4 {
+  padding-bottom: 20px;
+  margin: 0;
+}
+.i-header .line {
+  position: absolute;
+  width: 118px;
+  height: 4px;
+  background-color: #e3c98e;
+  bottom: -2px;
+}
+
+.i-content .list {
+  position: relative;
+}
+.i-content .list li {
+  cursor: pointer;
+  position: relative;
+  margin: 8px 0;
+}
+.i-content .list li p {
+  font-size: 14px;
+  padding-left: 30px;
+  color: #646464;
+}
+.i-content .list li .icon {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: #bc0000;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  font-size: 11px;
+  line-height: 15px;
+  color: white;
+  text-align: center;
+  behavior: url(/css/ie-css3.htc);
+}
+.i-content .list li.select p, .i-content .list li:hover p {
+  color: #bc0000;
+}
+
+.indent {
+  text-indent: 2em;
+}
